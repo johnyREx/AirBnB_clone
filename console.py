@@ -2,9 +2,10 @@
 """Console module"""
 import cmd
 
+
 class HBNBCommand(cmd.Cmd):
     """HBNBCommand class"""
-    
+
     prompt = "(hbnb)"
 
     def do_quit(self, arg):
@@ -19,4 +20,3 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
-
