@@ -1,12 +1,15 @@
-#!/usr/bin/env python3
-"""
-Module defines State class that inherits BaseModel
-"""
-
+#!/usr/bin/python3
+"""Defines the City class."""
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """This class defines the State"""
+    """Represent a city.
+
+    Attributes:
+        state_id (str): The state id.
+        name (str): The name of the city.
+    """
+
     state_id = ""
     name = ""
