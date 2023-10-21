@@ -1,0 +1,17 @@
+header {
+    background-color: #FFF;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.logo-icon {
+    width: 142px;
+    height: 60px;
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
